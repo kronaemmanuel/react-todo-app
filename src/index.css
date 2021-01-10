@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #E3F2FD;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todolist-container {
+  display: block;
+  margin: 100px auto;
+  max-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2), 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.todoitem {
+  color: #0D47A1;
+  font-size: 1.5rem;
+}
+
+.todoitem > label {
+  padding-left: 0.5rem;
+}
+
+.todolist-add{
+  display: flex;
+  justify-content: space-between;
+}
+.todolist-add > input {
+  width: 70%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.25rem;
+}
+
+
+.todolist-add > button {
+  color: #fff !important;
+  background: #2196F3;
+  border-radius: 5px;
+  border: none;
+  padding: 0.25rem 1rem;
 }
